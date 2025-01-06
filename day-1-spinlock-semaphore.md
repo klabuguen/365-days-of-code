@@ -1,5 +1,27 @@
-# Day 1: Implementing a Spinlock Semaphore
+# Kicking Off  365 Days of Code in 2025!
+Happy 2025! Today's the first day of this wonderful new year, and I wanted to challenge myself by attempting to commit to committing every single day. 
+#### Commit to Committing... ? 
+Every single day this year, I will push code to one of my project repositories and/or review important embedded software related concepts, then write about it in this blog. 
 
-- Wrote code for LunaRTOS
-- Created APIs to support thread synchronization using a spinlock semaphore
-- TODO: Go into details
+I'm really looking forward to how much progress I'll be able to make in a year!
+
+# Day 1: Implementing a Spinlock Semaphore
+#rtos-dev
+I've been working on [LunaRTOS](https://github.com/klabuguen/LunaRTOS) -- a custom real-time operating system -- on and off for the past two months. I'm familiar with FreeRTOS and other more safety-critical RTOSs (VxWorks, Integrity, etc), but wanted to *1) learn more about how to build a RTOS* and *2) Use a custom RTOS in my personal projects*. 
+
+Has this been a waste of time? *Well...FreeRTOS has a great community of support, is robustly built, and portable!* In my opinion, however, it's still been a ton of fun building LunaRTOS and I've been learning a lot about the work that goes into these RTOSs!
+
+So far, I have a few drivers implemented and a scheduler that can support both preemptive and cooperative scheduling for the ARM Cortex M4. A few weeks ago, before my vacation, I created three functions to support the use of semaphores. The three functions are: 
+
+```
+void SemaphoreInit(int32_t *semaphore, int32_t value);
+void SemaphoreWait(int32_t *semaphore);
+void SemaphoreGive(int32_t *semaphore);
+```
+
+The functions may be self-explanatory to some:
+- `SemaphoreInit` initializes a semaphore with a given value
+- `SemaphoreWait` waits and blocks a task until a semaphore is available. If a semaphore *is* available, it decrements the semaphore and allows the task to run.
+- `SemaphoreGive` increments the semaphore which potentially unblocks a task that is waiting for the semaphore. It is used to signal that a resource is now available for use.
+
+I refer to this feature as a ***spinlock semaphore***, because the function `SemaphoreWait` continues to use CPU cycles and wait in a loop until the semaphore becomes available. This is opposed to putting the thread or task to sleep, which is another feature I will work on in the future.
