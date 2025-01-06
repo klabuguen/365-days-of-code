@@ -1,6 +1,6 @@
 # Day 3: Pointer Arithmetic Review
 #c-fundamentals
-I've been rusty on C pointer fundamentals and decided to review pointer arithmetic. One can easily be thrown off by pointer arithmetic because adding 1 to a ***pointer*** is not as simple as adding two numbers in ***standard arithmetic***. For example:
+I've been rusty in regards to C pointer fundamentals and decided to review pointer arithmetic. One can easily be thrown off by pointer arithmetic because adding 1 to a ***pointer*** is not as simple as adding two numbers in ***standard arithmetic***. For example:
 
 We know that in standard arithmetic:
 $$ 1 + 1 = 2 $$
