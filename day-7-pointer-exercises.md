@@ -1,7 +1,5 @@
 #c-fundamentals 
 # Pointer Exercises
-Intro here
-
 ## 1. Swap Two Integers
 *Implement a function that swaps two integers.*
 
