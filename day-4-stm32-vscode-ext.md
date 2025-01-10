@@ -1,4 +1,4 @@
-# Setting up STM32 VSCode Extension
+# Day 4: Setting up STM32 VSCode Extension
 #workspace
 ## 1. Introduction
 I've been wanting to move away from the STM32CubeIDE for quite some time now. Since I do most of my (non-embedded) development on VSCode, I decided to give the STM32 VSCode Extension a try. In this post, I walk through my experience with the STM32 VSCode extension.
