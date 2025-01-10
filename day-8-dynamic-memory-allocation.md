@@ -1,5 +1,5 @@
-#c-fundamentals 
 # Day 8: Dynamic Memory Allocation
+#c-fundamentals 
 The two functions used to allocate memory are `malloc()` and `calloc` provided in the C  `stdlib` library.
 ## 1. The `malloc()` Function
 `malloc()` is a function that allocates a **sequence of bytes** and returns the address of the first byte in the sequence. The function takes in a number of bytes as an argument, and allows the user to work with and modify data stored within an allocated sequence.
