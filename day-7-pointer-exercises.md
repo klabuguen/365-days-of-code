@@ -1,5 +1,6 @@
+
+# Day 7: Pointer Exercises
 #c-fundamentals 
-# Pointer Exercises
 ## 1. Swap Two Integers
 *Implement a function that swaps two integers.*
 
