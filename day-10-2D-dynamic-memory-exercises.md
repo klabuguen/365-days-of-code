@@ -170,8 +170,37 @@ void swap2DMatrixRows(void **a, int row1, int row2){
 }
 ```
 
+*Output*
+```
+Swapping Rows:
+Printing matrix:
+[ 3 4 5 6 7 ]
+[ 1 2 3 4 5 ]
+[ 2 3 4 5 6 ]
+[ 0 1 2 3 4 ]
+[ 4 5 6 7 8 ]
+```
+
 **Swap Two Columns:**
-```
+Unlike the solution above I implemented to swap two rows, there is no clever trick to swapping two columns. In the solution below, I swap two columns with one another by swapping the values in the two columns `a[i][col1]` and `a[i][col2]`. 
 
 ```
+void swap2DMatrixCols(int **a, int rowSize, int col1, int col2){
+    for(int i = 0; i < rowSize; i++){
+        int tmp = a[i][col1];
+        a[i][col1] = a[i][col2];
+        a[i][col2] = tmp;
+    }
+}
+```
 
+*Output*
+```
+Swapping Columns:
+Printing matrix:
+[ 0 4 2 3 1 ]
+[ 1 5 3 4 2 ]
+[ 2 6 4 5 3 ]
+[ 3 7 5 6 4 ]
+[ 4 8 6 7 5 ]
+```
