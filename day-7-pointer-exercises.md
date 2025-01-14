@@ -1,4 +1,3 @@
-
 # Day 7: Pointer Exercises
 #c-fundamentals 
 ## 1. Swap Two Integers
