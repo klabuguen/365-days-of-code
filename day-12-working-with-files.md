@@ -34,7 +34,7 @@ fp = fopen("file.txt", "w");
 
 ### 3. Check if `fopen()` was Successful and Work with the File:
 ```
-if(fp != NULL){
+if(fp == NULL){
 	printf("The file failed to open.");
 }
 else{
