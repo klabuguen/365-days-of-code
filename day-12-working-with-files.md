@@ -1,5 +1,5 @@
-#c-fundamentals 
 # Day 12: Review of Working with Files in C
+#c-fundamentals 
 ## What is a File?
 - A stream of bytes, generally stored in nonvolatile memory. 
 - Types: Text files, binary files
