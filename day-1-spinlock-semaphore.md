@@ -1,4 +1,4 @@
-# Kicking Off  365 Days of Code in 2025!
+p# Kicking Off  365 Days of Code in 2025!
 Happy 2025! Today's the first day of this wonderful new year, and I wanted to challenge myself by attempting to commit to committing every single day. 
 #### Commit to Committing... ? 
 Every single day this year, I will push code to one of my project repositories and/or review important embedded software related concepts, then write about it in this blog. 

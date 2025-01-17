@@ -1,6 +1,5 @@
 # Day 10: 2D Dynamic Memory Exercises
 #c-fundamentals 
-
 ## 1. Create a Function that Creates a Dynamically Allocated 2D Matrix
 *Implement a function that creates a dynamically allocated 2D matrix.*
 
