@@ -319,8 +319,10 @@
   },
   "active": "f320f2939df02148",
   "lastOpenFiles": [
-    "day-16-image-enhancements.md",
+    "Untitled.md",
     "day-15-image-geometric-operations.md",
+    "2025-01-11.md",
+    "day-16-image-enhancements.md",
     "day-13-image-processing-basics-2.md",
     "day-14-rust-fundamentals.md",
     "day-12-working-with-files.md",
@@ -330,7 +332,6 @@
     "images",
     "day-3-pointer-arithmetic.md",
     "day-1-spinlock-semaphore.md",
-    "2025-01-11.md",
     "day-10-2D-dynamic-memory-exercises.md",
     "day-9-2D-dynamic-memory.md",
     "day-4-stm32-vscode-ext.md",
@@ -339,7 +340,6 @@
     "README.md",
     "day-5-stm32-vscode-cmake.md",
     "day-2-pended-svc.md",
-    "Untitled.md",
     "Untitled.canvas"
   ]
 }
