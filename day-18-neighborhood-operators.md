@@ -1,3 +1,3 @@
-# Day 17: Neighborhood Operators
+# Day 18: Neighborhood Operators
 #image-processing-fundamentals 
 

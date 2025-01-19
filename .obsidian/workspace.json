@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "day-13-image-processing-basics-2.md",
+                "file": "day-13-point-operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-13-image-processing-basics-2"
+              "title": "day-13-point-operators"
             }
           },
           {
@@ -125,12 +125,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "day-13-image-processing-basics-2.md",
+                "file": "day-13-point-operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-13-image-processing-basics-2"
+              "title": "day-13-point-operators"
             }
           },
           {
@@ -153,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "day-15-image-geometric-operations.md",
+                "file": "day-15-image-histograms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-15-image-geometric-operations"
+              "title": "day-15-image-histograms"
             }
           },
           {
@@ -167,16 +167,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "day-15-image-geometric-operations.md",
+                "file": "day-16-geometric-operations.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "day-15-image-geometric-operations"
+              "title": "day-16-geometric-operations"
+            }
+          },
+          {
+            "id": "344dc1c034d9fbd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "day-17-image-enhancements.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "day-17-image-enhancements"
+            }
+          },
+          {
+            "id": "ccf0384490809fb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "day-15-image-histograms.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "day-15-image-histograms"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -248,7 +276,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "day-15-image-geometric-operations.md",
+                "file": "day-15-image-histograms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +286,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for day-15-image-geometric-operations"
+              "title": "Backlinks for day-15-image-histograms"
             }
           },
           {
@@ -267,12 +295,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "day-15-image-geometric-operations.md",
+                "file": "day-15-image-histograms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from day-15-image-geometric-operations"
+              "title": "Outgoing links from day-15-image-histograms"
             }
           },
           {
@@ -294,10 +322,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "day-15-image-geometric-operations.md"
+                "file": "day-15-image-histograms.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of day-15-image-geometric-operations"
+              "title": "Outline of day-15-image-histograms"
             }
           }
         ]
@@ -317,29 +345,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f320f2939df02148",
+  "active": "ccf0384490809fb9",
   "lastOpenFiles": [
-    "Untitled.md",
-    "day-15-image-geometric-operations.md",
-    "2025-01-11.md",
-    "day-16-image-enhancements.md",
-    "day-13-image-processing-basics-2.md",
     "day-14-rust-fundamentals.md",
+    "day-13-point-operators.md",
     "day-12-working-with-files.md",
     "day-11-image-processing-basics.md",
+    "day-15-image-histograms.md",
+    "day-16-geometric-operations.md",
+    "day-17-image-enhancements.md",
+    "day-18-neighborhood-operators.md",
+    "day-1-spinlock-semaphore.md",
+    "README.md",
+    "data",
     "images/histogram_equalization.png",
+    "images/histogram_example.png",
+    "day-10-2D-dynamic-memory-exercises.md",
+    "day-8-dynamic-memory-allocation.md",
+    "day-7-pointer-exercises.md",
     "day-6-pointer-review.md",
+    "day-5-stm32-vscode-cmake.md",
+    "day-4-stm32-vscode-ext.md",
+    "day-2-pended-svc.md",
+    "2025-01-11.md",
     "images",
     "day-3-pointer-arithmetic.md",
-    "day-1-spinlock-semaphore.md",
-    "day-10-2D-dynamic-memory-exercises.md",
     "day-9-2D-dynamic-memory.md",
-    "day-4-stm32-vscode-ext.md",
-    "day-7-pointer-exercises.md",
-    "day-8-dynamic-memory-allocation.md",
-    "README.md",
-    "day-5-stm32-vscode-cmake.md",
-    "day-2-pended-svc.md",
     "Untitled.canvas"
   ]
 }

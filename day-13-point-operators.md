@@ -1,4 +1,4 @@
-# Day 13: Review of Image Processing Basics 2
+# Day 13: Point Operator
 #image-processing-fundamentals 
 
 Note: Need to update image processing sections, currently working out of
@@ -44,38 +44,3 @@ for(int i = 0; i < IMG_SIZE; i++){
 fwrite(buffer, sizeof(unsigned char), IMG_SIZE, imgOut);
 ```
 
-## 2. Histogram Equalization
-An image histogram is used to determine the relative frequency in which each pixel value occurs in the image. This helps determine relevant statistics such as the average intensity, minimum, and maximum values. *Histogram equalization* is a method used to distribute intensities within an image more equally. 
-### Theory
-The idea behind *histogram equalization* is finding an intensity mapping function $f(I)$ such that the resulting histogram is flat, as shown in the image below:
-
-![[histogram_equalization.png]]
-
-In order to find the mapping function $f(I)$, one method involves computing the *cumulative distribution function* (CDF), $c(I)$, by integrating the pixel distribution $h(I)$:
-$$
-Equation\ 2.1: \ c(I)=\frac{1}{N}\sum_{i=0}^{I}{h(i)=c(I-1)+\frac{1}{N}h(I)}
-$$
-where $N$ is the number of pixel within the image and $I$ is the intensity of each pixel. 
-
-### Example
-##### 1. Computing the Histogram
-In order compute the histogram
-```
-int computeHistogram(unsigned char *buffer, int width, int height, int **histogram){
-
-	FILE *imgIn = fopen("./image/write/histogram_data.txt", "w");
-	int sum = 0;
-	
-	for(int y = 0; y < height; y++){
-		for(int x = 0; x < width; x++){
-		// find px intensity for each (x, y) coordinate
-		int intensity = *(buffer + x + y * height);
-		*histogram[intensity]++;
-		sum += 1;
-	}
-}
-}
-```
-
-## 3. Equalizing an Image
-TODO
