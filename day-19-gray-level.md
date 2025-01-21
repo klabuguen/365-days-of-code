@@ -42,6 +42,6 @@ for(int y = 0; y < height; y++){
 ```
 
 `Input test image`:
-![[Pasted image 20250120151922.png]]
+![[./images/graylevel_in.png]]
 `Output image:`
-![[Pasted image 20250120151908.png]]
+![[./images/graylevel_out.png]]
