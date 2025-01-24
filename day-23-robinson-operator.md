@@ -3,4 +3,4 @@
 ## Introduction
 
 
-## Prewitt Operator
+## Robinson Operator
