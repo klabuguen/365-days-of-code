@@ -4,10 +4,9 @@
 
 The preprocessor is a program that is invoked by the compiler in order to process C source code prior to compilation. It performs simple text replacements and macro expansions for preprocessor commands known has directives. Preprocessor directives begin with the hash symbol (#). 
 
-![[/images/preprocessor.png]]
+![Preprocessor Diagram](/images/preprocessor.png)
 
 An example of a common preprocessor directive is the #include command which is used to include header files. 
-
 ## Preprocessor Directives
 
 | Directive | Description                                                                       |
