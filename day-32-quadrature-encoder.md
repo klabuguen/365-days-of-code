@@ -6,32 +6,27 @@ Given the quadrature encoder signal below for clockwise (CW) and counter-clockwi
 Quadrature Encoder Signal
 
 Clockwise (CW) Rotation:
-Channel A
-	+---+   +---+   +---+
-	|   |   |   |   |   |
-----+   +---+   +---+   +---
+          +---+   +---+   +---+
+Channel A |   |   |   |   |   |
+      ----+   +---+   +---+   +---
 
-Channel B
-	  +---+   +---+   +---+
-	  |   |   |   |   |
-------+   +---+   +---+   
+        +---+   +---+   +---+
+Channel B   |   |   |   |   |
+      ------+   +---+   +---+   
 
       Channel A leading B
 
 
 Counter-Clockwise (CCW) Rotation:
-Channel A
-		          +---+   +---+   +---+
-				  |   |   |   |   |
-			------+   +---+   +---+   
+        +---+   +---+   +---+
+Channel A   |   |   |   |   |
+      ------+   +---+   +---+   
 
-Channel B
-		        +---+   +---+   +---+
-			    |   |   |   |   |   |
-			----+   +---+   +---+   +---
+          +---+   +---+   +---+
+Channel B |   |   |   |   |
+      ----+   +---+   +---+   +---
 
       Channel B leading A
-
 ```
 
 
