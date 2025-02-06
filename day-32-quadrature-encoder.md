@@ -2,33 +2,7 @@
 #c-fundamentals 
 Given the quadrature encoder signal below for clockwise (CW) and counter-clockwise (CCW) rotation, design interrupt driven embedded software for the Nucleo-64 (STM32L476) to keep count of the angular rotation of the encoder.
 
-```
-Quadrature Encoder Signal
-
-Clockwise (CW) Rotation:
-          +---+   +---+   +---+
-Channel A |   |   |   |   |   |
-      ----+   +---+   +---+   +---
-
-	    +---+   +---+   +---+
-Channel B   |   |   |   |   |
-      ------+   +---+   +---+   
-
-      Channel A leading B
-
-
-Counter-Clockwise (CCW) Rotation:
-			+---+   +---+   +---+
-Channel A   |   |   |   |   |
-      ------+   +---+   +---+   
-
-    +---+   +---+   +---+
-Channel B |   |   |   |   |
-      ----+   +---+   +---+   +---
-
-      Channel B leading A
-```
-
+![Quadrature Encoder](/images/quadrature.png)
 
 Specifications: 
 - CH A connected to GPIO labeled D2 on the NucleoL476RG
